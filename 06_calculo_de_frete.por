@@ -25,7 +25,7 @@ programa {
         escreva("seu frete é ", val," reais")
       }
     }
-    senao se(cod==1){
+    senao se(cod==3){
       se(kg > 0 e kg < 20){
         val = kg * 12
         escreva("seu frete é ", val," reais")
